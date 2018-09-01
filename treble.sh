@@ -1,4 +1,4 @@
-###DEVICE - MIDO###
+\###DEVICE - MIDO###
 
 # Clone Kernel
 echo Cloning Kernel
@@ -6,7 +6,7 @@ git clone https://github.com/Adesh15/android_kernel_xiaomi_msm8953 -b oreo-mr1 k
 
 # Clone Vendor 
 echo Cloning Vendor
-git clone https://github.com/AliHasan96/proprietary_vendor_xiaomi -b oreo-mr1 vendor/xiaomi
+git clone https://github.com/MyTestLobby/proprietary_vendor_xiaomi -b oreo-mr1 vendor/xiaomi
 
 #Clone Common trees
 echo cloning common trees
