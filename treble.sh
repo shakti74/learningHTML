@@ -1,4 +1,4 @@
-\###DEVICE - MIDO###
+###DEVICE - MIDO###
 
 # Clone Kernel
 echo Cloning Kernel
@@ -14,5 +14,9 @@ git clone https://github.com/MyTestLobby/device_xiaomi_msm8953-common -b test de
 
 #Clone clang
 echo cloning clang
+
 rm -rf prebuilts/clang/host/linux-x86
 git clone https://github.com/AOSiP/platform_prebuilts_clang_host_linux-x86 -b oreo-mr1 prebuilts/clang/host/linux-x86
+
+#Device tree
+git clone https://github.com/Dixzz/device_xiaomi_mido device/xiaomi/mido
